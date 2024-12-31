@@ -1,0 +1,9 @@
+extends layouts/layout
+
+block content
+    main 
+        h2 #{article.name}
+        p #{article.body}
+        a.btn(
+            href="/"
+        ) Go Back To Home
